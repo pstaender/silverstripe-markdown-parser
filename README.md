@@ -17,6 +17,12 @@ You can now parse any DataObject texfields with the markdown parser:
 	<h1>$Title</h1>
 	$Content.Parse(Markdown)
 
+## Tests
+
+Run test with
+
+  $> sake dev/tests/module/markdownparser
+
 ## Copyright and License
 
 I took the [markdown parser](https://github.com/michelf/php-markdown/) which is written by Michel Fortin under the [GNU General Public License v2](http://michelf.ca/projects/php-markdown/license/).
