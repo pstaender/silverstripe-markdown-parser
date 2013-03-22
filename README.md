@@ -19,9 +19,7 @@ You can now parse any DataObject texfields with the markdown parser:
 
 ## Tests
 
-Run test with
-
-  $> sake dev/tests/module/markdownparser
+Run test with `$> sake dev/tests/module/markdownparser`
 
 ## Copyright and License
 
