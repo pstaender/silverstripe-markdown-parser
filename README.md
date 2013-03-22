@@ -1,12 +1,14 @@
 # Markdown Parser for SilverStripe 2
 
+Markdown parsing in SilverStripe templates.
+
 ## Requirements
 
  * Silverstripe 2 or newer
 
 ## Installation
 
-Copy the `markdownparse` folder in your silverstripe installation and rebuild the manifest with `/?flush=all` flush command.
+Copy the `markdownparser` folder in your silverstripe installation and rebuild the manifest with `/?flush=all` flush command.
 
 ## Usage
 
