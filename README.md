@@ -1,4 +1,4 @@
-# Markdown Parser for SilverStripe 2
+# Markdown Parser for SilverStripe 2+
 
 Markdown parsing in SilverStripe templates.
 
