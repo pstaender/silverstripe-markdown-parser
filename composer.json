@@ -1,0 +1,19 @@
+{
+  "name": "pstaender/silverstripe-markdown-parser",
+  "description": "Markdown parsing in SilverStripe templates",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/pstaender/silverstripe-markdown-parser",
+  "keywords": ["silverstripe", "markdown", "parser"],
+  "license": "GNU Genereal Public License v2",
+  "authors": [
+    {"name": "Philipp Staender","email": "philipp.staender@gmail.com"}
+  ],
+  "support": {
+    "issues": "https://github.com/pstaender/silverstripe-markdown-parser/issues"
+  },
+  "require": {
+    "php": ">=5.2.0",
+    "silverstripe/cms": ">=2.4",
+    "silverstripe/framework": ">=2.4"
+  }
+} 
