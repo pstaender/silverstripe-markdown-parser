@@ -4,7 +4,7 @@
   "type": "silverstripe-module",
   "homepage": "https://github.com/pstaender/silverstripe-markdown-parser",
   "keywords": ["silverstripe", "markdown", "parser"],
-  "license": "GNU Genereal Public License v2",
+  "license": "GNU General Public License v2",
   "authors": [
     {"name": "Philipp Staender","email": "philipp.staender@gmail.com"}
   ],

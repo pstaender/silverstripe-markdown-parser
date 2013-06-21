@@ -25,4 +25,4 @@ Run test with `$> sake dev/tests/module/markdownparser`
 
 I took the [markdown parser](https://github.com/michelf/php-markdown/) which is written by Michel Fortin under the [GNU General Public License v2](http://michelf.ca/projects/php-markdown/license/).
 
-So this module is under the **GNU Genereal PUblic License v2** as well.
+So this module is under the **GNU General Public License v2** as well.
