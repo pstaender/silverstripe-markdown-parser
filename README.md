@@ -8,21 +8,37 @@ Markdown parsing in SilverStripe templates.
 
 ## Installation
 
-Copy the `markdownparser` folder in your silverstripe installation and rebuild the manifest with `/?flush=all` flush command.
+Install with composer:
+
+```sh
+  $ composer require pstaender/silverstripe-markdown-parser dev-master
+```
+
+… or download / clone the repository into your silverstripe project.
+
+Finally flush the silverstripe cache via `/?flush=all` for the changes to take effect.
 
 ## Usage
 
-You can now parse any DataObject texfields with the markdown parser:
+Now you can convert any DataObject strings to html with the markdown parser:
 
-	<h1>$Title</h1>
-	$Content.Parse(Markdown)
+```html
+  <h1>$Title</h1>
+  <section>
+    $Content.Parse(Markdown)
+  </section>
+```
 
 ## Tests
 
-Run test with `$> sake dev/tests/module/markdownparser`
+Run tests with:
+
+```sh
+  $ sake dev/tests/module/markdownparser
+```
 
 ## Copyright and License
 
-I took the [markdown parser](https://github.com/michelf/php-markdown/) which is written by Michel Fortin under the [GNU General Public License v2](http://michelf.ca/projects/php-markdown/license/).
+It's using the [markdown parser](https://github.com/michelf/php-markdown/) written by Michel Fortin under the [GNU General Public License v2](http://michelf.ca/projects/php-markdown/license/).
 
-So this module is under the **GNU General Public License v2** as well.
+This module is under the **GNU General Public License v2** as well.
