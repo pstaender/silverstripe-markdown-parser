@@ -29,6 +29,16 @@ Now you can convert any DataObject strings to html with the markdown parser:
   </section>
 ```
 
+## Use extra markdown options
+
+To use extended support of markdown you can switch the flag `useExtraMarkdown` in your `config.yml` (it's deactivated by default):
+
+```yaml
+Markdown:
+  useExtraMarkdown: true
+```
+Alternatively trough `Markdown::$useExtraMarkdown = true;`.
+
 ## Tests
 
 Run tests with:
