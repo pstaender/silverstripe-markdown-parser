@@ -12,7 +12,6 @@
     "issues": "https://github.com/pstaender/silverstripe-markdown-parser/issues"
   },
   "require": {
-    "php": ">=5.2.0",
-    "erusev/parsedown": "*"
+    "php": ">=5.2.0"
   }
 }
