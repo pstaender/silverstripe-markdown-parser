@@ -49,6 +49,6 @@ Run tests with:
 
 ## Copyright and License
 
-It's using the [markdown parser](https://github.com/michelf/php-markdown/) written by Michel Fortin under the [GNU General Public License v2](http://michelf.ca/projects/php-markdown/license/).
+It's using the [Parsedown parser](https://github.com/erusev/parsedown) written by Emanuil Rusev under the MIT License.
 
-This module is under the **GNU General Public License v2** as well.
+This module is under the **GNU General Public License v2**.

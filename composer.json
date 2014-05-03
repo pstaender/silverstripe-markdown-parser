@@ -13,7 +13,6 @@
   },
   "require": {
     "php": ">=5.2.0",
-    "silverstripe/cms": ">=2.4",
-    "silverstripe/framework": ">=2.4"
+    "erusev/parsedown": "*"
   }
-} 
+}
