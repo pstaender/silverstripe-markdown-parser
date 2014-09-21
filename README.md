@@ -1,10 +1,15 @@
 # Markdown Parser for SilverStripe 2+
 
-Markdown parsing in SilverStripe templates.
+Markdown parsing in SilverStripe templates. Inlcuding the ability to render GitHub flavoured markdown.
+
+## Important: Name has changed from Markdown to MarkdownParser
+
+To enable interoperability with the markdown field in [Silverstripe Markdown](https://github.com/UndefinedOffset/silverstripe-markdown), I renamed the parser class from `Markdown` to `MarkdownParser`. This cange is made in version 0.1.
 
 ## Requirements
 
  * Silverstripe 2 or newer
+ * PHP 5.2 or newer
 
 ## Installation
 
@@ -25,7 +30,7 @@ Now you can convert any DataObject strings to html with the markdown parser:
 ```html
   <h1>$Title</h1>
   <section>
-    $Content.Parse(Markdown)
+    $Content.Parse(MarkdownParser)
   </section>
 ```
 
