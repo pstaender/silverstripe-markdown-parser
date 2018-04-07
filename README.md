@@ -27,6 +27,10 @@ Now you can convert any String to HTML with:
   </section>
 ```
 
+## TODO
+
+  * tests
+
 ## Copyright and License
 
 This module is under the **GNU General Public License v2**.
