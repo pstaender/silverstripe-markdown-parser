@@ -19,8 +19,7 @@
     "issues": "https://github.com/pstaender/silverstripe-markdown-parser/issues"
   },
   "require": {
-    "silverstripe/cms": ">=4",
     "michelf/php-markdown": "*",
-    "silverstripe/framework": "^4"
+    "silverstripe/framework": ">=4"
   }
 }
