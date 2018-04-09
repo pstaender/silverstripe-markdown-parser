@@ -1,10 +1,11 @@
 <?php
 
+use Michelf\MarkdownExtra;
+
 class MarkdownParser extends TextParser {
 
   function parse() {
-    $Parsedown = new Parsedown();
-    return $Parsedown->text($this->content);
+    return MarkdownExtra::defaultTransform($this->content);
   }
 
 }
