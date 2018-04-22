@@ -1,7 +1,7 @@
 {
   "name": "pstaender/silverstripe-markdown-parser",
   "description": "Markdown parsing in SilverStripe templates",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "homepage": "https://github.com/pstaender/silverstripe-markdown-parser",
   "keywords": [
     "silverstripe",
@@ -20,6 +20,6 @@
   },
   "require": {
     "michelf/php-markdown": "*",
-    "silverstripe/framework": ">=4"
+    "silverstripe/framework": "^4"
   }
 }
