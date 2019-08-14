@@ -1,0 +1,24 @@
+language: php
+
+dist: trusty
+
+# env:
+#   global:
+#     - COMPOSER_ROOT_VERSION=2.x-dev
+
+matrix:
+  include:
+    # - php: 5.6
+    #   env: DB=MYSQL PHPCS_TEST=1 PHPUNIT_TEST=1
+    - php: 7.2
+    - php: 7.3
+
+before_script:
+  # Init PHP
+  - phpenv rehash
+  - phpenv config-rm xdebug.ini
+  - composer validate
+  - composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
+
+script:
+  - vendor/bin/phpunit tests/
