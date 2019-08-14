@@ -1,0 +1,9 @@
+---
+Name: silverstripe-markdown-parser
+---
+SilverStripe\ORM\FieldType\DBString:
+  extensions:
+    - Zeitpulse\SilverStripeMarkdownParser\DBStringExtension
+SilverStripe\ORM\FieldType\DBVarchar:
+  extensions:
+    - Zeitpulse\SilverStripeMarkdownParser\DBStringExtension

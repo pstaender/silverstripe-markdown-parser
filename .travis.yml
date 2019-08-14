@@ -1,0 +1,15 @@
+language: php
+dist: trusty
+matrix:
+  include:
+    - php: 7.2
+      env: DB=MYSQL
+    - php: 7.3
+      env: DB=MYSQL
+before_script:
+  - phpenv rehash
+  - phpenv config-rm xdebug.ini
+  - composer validate
+  - composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
+script:
+  - vendor/bin/phpunit tests flush=1
