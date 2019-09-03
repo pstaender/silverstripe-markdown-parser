@@ -42,6 +42,6 @@ Every converting should work as expected out of the box.
 
 Under the hood the parsers `Parsedown`, `ParsedownExtra` and `League\HTMLToMarkdown\HtmlConverter` are used for conversion. Anyhow, if you need to different parsing options you can hook any parser with a custom `Injector` configuration.
 
-## Copyright and License
+## License
 
-This module is under the **MIT License**.
+MIT License
