@@ -1,8 +1,6 @@
-[![Build Status](https://img.shields.io/travis/pstaender/silverstripe-markdown-parser.svg?style=flat-square)](https://travis-ci.org/pstaender/silverstripe-markdown-parser)
-
 # Markdown Parser for SilverStripe
 
-Converts (inline) text to Markdown / MarkdownExtra and vice versa.
+Converts any string field to Markdown and vice versa.
 
 ## Requirements
 
@@ -22,16 +20,16 @@ After flushing your cache you can use the convertes in any template:
 
 ```html
 <article>
-  $Text.Markdown
-  $Text.MarkdownExtra
+  $Content.markdown
+  $Content.markdownExtra
   <p>
-    $Title.InlineMarkdown
+    $Title.inlineMarkdown
   </p>
   <p>
-    $Title.InlineMarkdownExtra
+    $Title.inlineMarkdownExtra
   </p>
   <pre>
-  $Content.HTMLToMarkdown
+  $MyHTMLContent.htmlToMarkdown
   </pre>
 </article>
 ```

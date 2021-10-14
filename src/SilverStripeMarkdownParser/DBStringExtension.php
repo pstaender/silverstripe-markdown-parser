@@ -11,11 +11,11 @@ use SilverStripe\Core\Injector\Injector;
 class DBStringExtension extends DataExtension
 {
     private static $casting = [
-        'Markdown' => 'HTMLFragment',
-        'InlineMarkdown' => 'HTMLFragment',
-        'MarkdownExtra' => 'HTMLFragment',
-        'InlineMarkdownExtra' => 'HTMLFragment',
-        'HTMLToMarkdown' => 'Text',
+        'markdown' => 'HTMLFragment',
+        'inlineMarkdown' => 'HTMLFragment',
+        'markdownExtra' => 'HTMLFragment',
+        'inlineMarkdownExtra' => 'HTMLFragment',
+        'htmlToMarkdown' => 'Text',
     ];
 
     public function markdown(): string
