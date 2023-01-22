@@ -19,8 +19,9 @@
         }
     ],
     "require": {
+        "php": ">=8",
         "silverstripe/framework": "~4",
-        "league/html-to-markdown": "^4.8",
+        "league/html-to-markdown": "^5",
         "soundasleep/html2text": "^1.1",
         "erusev/parsedown": "^1.7",
         "erusev/parsedown-extra": "^0.7.1"
@@ -28,10 +29,21 @@
     "require-dev": {
         "phpunit/phpunit": "*"
     },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit --colors"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "Zeitpulse\\": "src/",
             "Zeitpulse\\SilverStripeHelper\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
         }
     }
 }
