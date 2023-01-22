@@ -10,6 +10,7 @@ class TestDataObject extends DataObject implements TestOnly
     private static $db = [
         'TextContent' => 'Text',
         'HTMLContent' => 'HTMLText',
-        'Sentance' => 'Text',
+        'Sentence' => 'Text',
+        'EmptyText' => 'Text',
     ];
 }

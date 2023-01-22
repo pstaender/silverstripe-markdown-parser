@@ -1,8 +1,9 @@
 Zeitpulse\SilverStripeHelper\Tests\Model\TestDataObject:
   markdown:
     TextContent: "## Title\n**Lorem ipsum** dolor sit amet *consectetur* adipiscing elit."
-    Sentance: Example **sentance**
+    Sentence: Example **sentence**
     HTMLContent: "<h3>Title</h3>\n\n<p><strong>Lorem ipsum</strong> dolor sit amet <em>consectetur</em> adipiscing elit.</p>"
+    EmptyText:
   markdownExtra:
     TextContent: "## Title{.title}\n**Lorem ipsum** dolor sit amet *consectetur* adipiscing elit."
-    Sentance: Example **sentance** with <pre>inline</pre> html
+    Sentence: Example **sentence** with <pre>inline</pre> html

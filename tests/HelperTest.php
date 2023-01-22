@@ -22,8 +22,16 @@ class HelperTest extends SapphireTest
     public function testTextToInlineMarkdown()
     {
         $this->assertEquals(
-            $this->markdown('Sentance')->Markdown(),
-            '<p>Example <strong>sentance</strong></p>'
+            $this->markdown('Sentence')->Markdown(),
+            '<p>Example <strong>sentence</strong></p>'
+        );
+    }
+
+    public function testEmptyToMarkdown()
+    {
+        $this->assertEquals(
+            $this->markdown('EmptyText')->Markdown(),
+            ''
         );
     }
 
@@ -46,8 +54,8 @@ class HelperTest extends SapphireTest
     public function testTextToInlineMarkdownExtra()
     {
         $this->assertEquals(
-            $this->markdownExtra('Sentance')->InlineMarkdownExtra(),
-            'Example <strong>sentance</strong> with <pre>inline</pre> html'
+            $this->markdownExtra('Sentence')->InlineMarkdownExtra(),
+            'Example <strong>sentence</strong> with <pre>inline</pre> html'
         );
     }
 
